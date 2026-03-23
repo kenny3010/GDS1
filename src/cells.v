@@ -45,7 +45,7 @@ parameter H  = TEMPO * 2;                      // half
 parameter E  = TEMPO / 2;                      // eighth
 parameter DQ = TEMPO + TEMPO / 2;             // dotted quarter
 parameter T = TEMPO/3;                      // Triole
-parameter T2 = TEMPO/3*2:
+parameter T2 = TEMPO/3*2;
 parameter DH = TEMPO*2+TEMPO;
 parameter DE = TEMPO/2+TEMPO/4;
 

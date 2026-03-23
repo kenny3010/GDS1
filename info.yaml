@@ -1,11 +1,11 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     455291872587345921       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "Test"      # Project title
+  title:        "Test Zelda main theme"      # Project title
   author:       "Kenny"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Test"      # One line description of what your project does
-  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
@@ -16,17 +16,17 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "in 1"
-  ui[1]: "in 2"
-  ui[2]: "in 3"
-  ui[3]: "in 4"
+  ui[0]: ""
+  ui[1]: ""
+  ui[2]: ""
+  ui[3]: ""
   ui[4]: ""
-  ui[5]: "in 5"
-  ui[6]: "in 6"
+  ui[5]: ""
+  ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: "output"
+  uo[0]: ""
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
