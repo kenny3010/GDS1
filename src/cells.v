@@ -22,14 +22,14 @@ parameter A4    = CLK_FREQ/ 2 / 440;
 parameter G4    = CLK_FREQ/ 2 / 392;
 parameter E4    = CLK_FREQ/ 2 / 330;
 parameter B4    = CLK_FREQ/ 2 / 394;
-parameter C5#   = CLK_FREQ/ 2 / 554;
+parameter C5_S  = CLK_FREQ/ 2 / 554;
 parameter D5    = CLK_FREQ/ 2 / 587;
-parameter D5#   = CLK_FREQ/ 2 / 622;
+parameter D5_S  = CLK_FREQ/ 2 / 622;
 parameter E5    = CLK_FREQ/ 2 / 659;
 parameter F5    = CLK_FREQ/ 2 / 698;
-parameter F5#   = CLK_FREQ/ 2 / 740;
+parameter F5_S  = CLK_FREQ/ 2 / 740;
 parameter G5    = CLK_FREQ/ 2 / 784;
-parameter G5#   = CLK_FREQ/ 2 / 831;
+parameter G5_S  = CLK_FREQ/ 2 / 831;
 parameter A5    = CLK_FREQ/ 2 / 880;
 parameter B5    = CLK_FREQ/ 2 / 988;
 parameter C6    = CLK_FREQ/ 2 / 1047;
@@ -108,7 +108,7 @@ initial begin
     note[35]=A4; dur[35]=E;
     note[36]=A4; dur[36]=S;
     note[37]=B4; dur[37]=S;
-    note[38]=C5#; dur[38]=S;
+    note[38]=C5_S; dur[38]=S;
     note[39]=D5; dur[39]=S;
 
     //6.Takt
@@ -157,9 +157,9 @@ initial begin
 
     note[68]=B4;dur[68]=E;
     note[69]=B4;dur[69]=S;
-    note[70]=C5#; dur[70]=S;
-    note[71]=D5#;dur[71]=H;
-    note[72]=F5#;dur[72]=Q;
+    note[70]=C5_S; dur[70]=S;
+    note[71]=D5_S;dur[71]=H;
+    note[72]=F5_S;dur[72]=Q;
 
     //12.Takt
 
@@ -182,7 +182,7 @@ initial begin
     note[86]=A4;dur[86]=E;
     note[87]=A4;dur[87]=S;
     note[88]=B4;dur[88]=S;
-    note[89]=C5#;dur[89]=S;
+    note[89]=C5_S;dur[89]=S;
     note[90]=D5; dur[90]=S;
 
 
@@ -203,7 +203,7 @@ initial begin
     //16.Takt
 
     note[100]=B5;dur[100]=Q;
-    note[101]=G5#;dur[101]=H;
+    note[101]=G5_S;dur[101]=H;
     note[102]=E5;dur[102]=Q;
 
     //17.Takt
@@ -211,7 +211,7 @@ initial begin
     note[104]=A5;dur[104]=Q;
 
     //18.Takt
-    note[105]=G5#;dur[105]=Q;
+    note[105]=G5_S;dur[105]=Q;
     note[106]=E5;dur[106]=H;
     note[107]=E5;dur[107]=Q;
 
@@ -220,9 +220,9 @@ initial begin
     note[109]=A5;dur[109]=Q;
 
     //20.Takt
-    note[110]=G5#;dur[110]=H;
+    note[110]=G5_S;dur[110]=H;
     note[111]=E5;dur[111]=Q;
-    note[112]=C5#;dur[112]=Q;
+    note[112]=C5_S;dur[112]=Q;
 
     //21.Takt
     note[113]=D5;dur[113]=DH;
@@ -236,9 +236,9 @@ initial begin
     //23.Takt
     note[118]=B4;dur[118]=E;
     note[119]=B4;dur[119]=S;
-    note[120]=C5#;dur[120]=S;
-    note[121]=D5#;dur[121]=H;
-    note[122]=F5#;dur[122]=Q;
+    note[120]=C5_S;dur[120]=S;
+    note[121]=D5_S;dur[121]=H;
+    note[122]=F5_S;dur[122]=Q;
 
     //24.Takt
     note[123]=E5;dur[123]=E;
