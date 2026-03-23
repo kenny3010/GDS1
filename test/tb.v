@@ -1,11 +1,11 @@
 module zelda_theme_tb;
     reg  clk, rst;
-    wire speaker;
+    wire [7:0] uio_out;
 
     zelda_theme dut (
         .clk(clk),
         .rst(rst),
-        .speaker(speaker)
+        .uio_out(uio_out)
     );
 
     // 50 MHz clock → 20ns period

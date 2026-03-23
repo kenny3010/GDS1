@@ -5,7 +5,7 @@
 module zelda_theme (
     input  clk,        // 50 MHz system clock
     input  rst,        // Active high reset
-    output speaker     // PWM output to piezo buzzer
+    output wire uio_out[0]    // PWM output to piezo buzzer
 );
 
 // ============================================================
